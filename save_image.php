@@ -7,7 +7,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $name = preg_replace('/[^a-zA-Z0-9\s]/', '', $name);
 
     // Create a directory for the user if it doesn't exist
-    $directory = 'labels/' . $name;
+    $directory = 'imgDatabase/' . $name;
     if (!is_dir($directory)) {
         mkdir($directory);
     }
