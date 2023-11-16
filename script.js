@@ -26,7 +26,7 @@ async function getLabeledFaceDescriptions() {
   for (const label of labels) {
     const descriptions = [];
     for (let i = 1; i <= 2; i++) {
-      const img = await faceapi.fetchImage(`./labels/${label}/${i}.png`);
+      const img = await faceapi.fetchImage(`./imgDatabase/${label}/${i}.png`);
       const detections = await faceapi
         .detectSingleFace(img)
         .withFaceLandmarks()
