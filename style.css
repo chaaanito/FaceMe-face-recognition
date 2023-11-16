@@ -1,0 +1,119 @@
+body {
+    background-color: #794bf7;
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+}
+#video{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+canvas {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+  }
+  
+  .navbar-brand:hover {
+    transform: scale(1.1);
+  }
+  
+  .navbar-nav .nav-link {
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    transition: all 0.3s ease;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    transform: scale(1.1);
+  }
+  
+  .navbar-collapse {
+    justify-content: flex-end;
+  }
+  
+  .navbar-toggler {
+    border-color: #fff;
+  }
+  
+  .navbar-toggler-icon {
+    background-color: #fff;
+  }
+  
+@media (max-width: 768px) {
+    .navbar-nav {
+       
+        margin-top: 10px;
+        text-align: center;
+        border-radius: 10px;
+    }
+  
+    .navbar-nav .nav-link {
+        color: #fff;
+        margin: 5px;
+        transition: all 0.3s ease;
+    }
+  
+    .navbar-nav .nav-link:hover {
+        transform: scale(1.1);
+    }
+  
+    .navbar-toggler {
+        border-color: #000;
+    }
+  
+    .navbar-toggler-icon {
+        background-color: #000;
+    }
+  }
+  /* Link Styling */
+a {
+    color: #f00;
+  }
+  
+  a:hover {
+    color: #c00;
+  }
+  
+  
+  /*button styleing */
+  .homebtn{
+      width: 150px;
+      height: 70px; 
+  }
+  .downbtn{
+    width: 150px;
+    height: 70px; 
+  }
+  .regbtn{
+    width: 150px;
+    height: 70px; 
+  }
+  .outbtn{
+    width: 150px;
+    height: 70px; 
+  }
+  .capbtn{
+    color: #794bf7;
+    background-size: 100px; /* Adjust the background size as needed */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    height: 30px;
+    width: 100px; /* Set the width of the button */
+    border: none; /* Remove the button border */
+    cursor: pointer; /* Change the cursor to a pointer on hover */
+  }
+  #nameInput{
+    color: #794bf7;
+
+  }
